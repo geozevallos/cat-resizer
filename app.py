@@ -14,6 +14,10 @@ app = Flask(__name__)
 def hello_world():
     return "hello world :D"
 
+@app.route('/pin')
+def pinpon():
+    return "pon"
+
 
 #Variable de entorno: almaceno información de manera global
 
